@@ -17,8 +17,9 @@ namespace UnitTests1
         [TestMethod]
         public void TestMethod2()
         {
-            string valueString = "Your string2";
+            string valueString = "Running FAILING tests";
             Console.WriteLine(valueString);
+            Assert.AreEqual("bla", "bla bla", false, "Check failed!");
         }
 
 
